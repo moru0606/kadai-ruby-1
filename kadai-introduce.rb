@@ -1,5 +1,6 @@
 ln="オオキ"
 fn="ヒロアキ"
-age = 33.to_s
+age = 33
 
-p ln+fn+"です。"+age+"歳です。"
+introduce = ln+fn+"です。"+age.to_s+"歳です。"
+puts introduce
